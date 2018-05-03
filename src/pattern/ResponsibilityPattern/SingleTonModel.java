@@ -5,7 +5,7 @@ package pattern.ResponsibilityPattern;
  */
 public class SingleTonModel {
 
-        public static  SingleTonModel singleTonModel = null;
+        private  static  SingleTonModel singleTonModel = null;
 
         private  SingleTonModel(){
 
